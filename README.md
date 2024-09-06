@@ -5,7 +5,7 @@
 Repository ini digunakan pemilik sebagai wadah untuk menyimpan tugas untuk mata kuliah Pemrograman Web
 
 ## Profil Pemilik
-
+| ----------------- | ------------------------------------------------------------------ |
 | Nama | Farhan Apri Kesuma |
 | NIM | 121140179 |
 | Instagram | [@prhnnn_ak](https://www.instagram.com/prhnnn_ak/) |
