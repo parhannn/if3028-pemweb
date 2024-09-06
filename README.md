@@ -6,6 +6,7 @@ Repository ini digunakan pemilik sebagai wadah untuk menyimpan tugas untuk mata 
 
 ## Profil Pemilik
 
+| Field             | Data                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Nama | Farhan Apri Kesuma |
 | NIM | 121140179 |
