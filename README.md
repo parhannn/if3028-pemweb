@@ -12,4 +12,4 @@ Repository ini digunakan pemilik sebagai wadah untuk menyimpan tugas untuk mata 
 | NIM | 121140179 |
 | Instagram | [@prhnnn_ak](https://www.instagram.com/prhnnn_ak/) |
 | Github | [parhannn](https://github.com/parhannn) |
-| Linkedin | [Visit Me!](https://www.linkedin.com/in/farhan-apri-kesuma/) #000000 |
+| Linkedin | [Visit Me!](https://www.linkedin.com/in/farhan-apri-kesuma/) |
