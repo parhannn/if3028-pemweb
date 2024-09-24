@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form dan Tabel</title>
+    <style>
+      .center-div {
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        margin: 50px;
+        background-color: lightblue;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center-div">Kesan & Pesan</h1>
+      <div class="center-div">
+        <form>
+          <label for="Nama">Nama :</label>
+          <input type="text" id="Nama" name="Nama" /><br /><br />
+
+          <label for="NIM">NIM :</label>
+          <input type="text" id="NIM" name="NIM" /><br /><br />
+
+          <label for="Tanggal Lahir">Tanggal Lahir :</label>
+          <input type="date" id="Tanggal Lahir" name="Tanggal Lahir" /><br /><br />
+
+          <label for="Gender">Gender :</label><br />
+          <input type="radio" id="male" name="Gender" value="Laki-laki" />
+          <label for="male">Laki-laki</label><br />
+          <input type="radio" id="female" name="Gender" value="Perempuan" />
+          <label for="female">Perempuan</label><br />
+
+          <label for="Pesan">Pesan :</label><br />
+          <textarea type="textarea-input" id="Pesan" name="Pesan"></textarea><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="center-div">Tabel</h1>
+      <div class="center-div">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>NIM</th>
+              <th>Tanggal Lahir</th>
+              <th>Gender</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Farhan Apri Kesuma</td>
+              <td>121140179</td>
+              <td>4 Januari 2004</td>
+              <td>Laki-laki</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
