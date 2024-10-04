@@ -12,9 +12,11 @@ body {
 }
 
 nav {
-  background: #0082e6;
-  height: 80px;
-  width: 100%;
+  position: fixed; /* Navbar tetap di atas */
+  top: 0; /* Jarak dari atas halaman */
+  width: 100%; /* Lebar navbar 100% */
+  background: #0082e6; /* Warna latar belakang navbar */
+  z-index: 1000; /* Memastikan navbar berada di atas elemen lainnya */
 }
 
 label.logo .logo-text {
@@ -210,5 +212,5 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background-color: rgb(20, 141, 230); 
+  background-color: rgb(20, 141, 230);
 }
