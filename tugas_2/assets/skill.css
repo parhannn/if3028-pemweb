@@ -1,0 +1,135 @@
+.container-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.sec-container-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.third-container-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #666;
+  margin: 20px 0 0 100px;
+}
+
+.align-center {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.card-skill {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card-skill i {
+  font-size: 40px;
+  color: #0077b5;
+  margin-bottom: 15px;
+}
+
+.card-skill h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-skill p {
+  font-size: 16px;
+  color: #666;
+}
+
+.card-skill:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sec-card-skill {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.sec-card-skill i {
+  font-size: 40px;
+  color: #0077b5;
+  margin-bottom: 15px;
+}
+
+.sec-card-skill h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sec-card-skill p {
+  font-size: 16px;
+  color: #666;
+}
+
+.sec-card-skill:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .container-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sec-container-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .third-container-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 23px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .sec-container-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .third-container-skills {
+    grid-template-columns: 1fr;
+  }
+}
