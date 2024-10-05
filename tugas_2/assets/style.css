@@ -12,11 +12,11 @@ body {
 }
 
 nav {
-  position: fixed; /* Navbar tetap di atas */
-  top: 0; /* Jarak dari atas halaman */
-  width: 100%; /* Lebar navbar 100% */
-  background: #0082e6; /* Warna latar belakang navbar */
-  z-index: 1000; /* Memastikan navbar berada di atas elemen lainnya */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0082e6;
+  z-index: 1000;
 }
 
 label.logo .logo-text {

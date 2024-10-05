@@ -1,0 +1,123 @@
+.container-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 10%;
+}
+
+.card-profile {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-profile img {
+  width: 120px;
+  height: 120px;
+  margin: 7vh 0 0 0;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info-profile h2 {
+  margin-top: 15px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.info-profile p {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+.link-github {
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 18px;
+  margin: 15px 0 0 15%;
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.link-repos {
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 18px;
+  margin: 15px 0 0 0;
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.link-github:hover {
+  background-color: #e9e9e9;
+}
+
+.link-repos:hover {
+  background-color: #e9e9e9;
+}
+
+.list-repos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 65%;
+}
+
+.repos-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.repos-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.repos-card p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .container-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-profile,
+  .list-repos {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-profile img {
+    margin: 0 0 0 0;
+  }
+
+  .list-repos {
+    grid-template-columns: 1fr;
+  }
+}
