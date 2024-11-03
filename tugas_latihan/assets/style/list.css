@@ -50,7 +50,7 @@ thead th {
   margin-top: 50px !important;
 }
 
-@media screen and (max-height: 1024px) {
+@media screen and (max-height: 1100px) {
   .content {
     height: 100vh;
   }
