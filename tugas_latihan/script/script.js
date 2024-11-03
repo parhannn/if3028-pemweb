@@ -105,3 +105,16 @@ function cariData() {
     resultDiv.innerHTML = `<p>Data tidak ditemukan!</p>`;
   }
 }
+
+function exportPDF(){
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  doc.autoTable({
+    html: '#tableValue',
+    startY: 10,
+    theme: 'plain',
+  });
+
+  doc.save('Data Nilai Mahasiswa.pdf');
+}

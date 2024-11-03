@@ -45,7 +45,7 @@
     <div class="content">
       <h2>Daftar Nilai Mahasiswa</h2>
       <div class="table-wrapper">
-        <table id="table table-bordered table-striped">
+        <table id="tableValue">
           <thead>
             <tr>
               <th>NIM</th>
@@ -57,22 +57,18 @@
               <th>Indeks</th>
             </tr>
           </thead>
-          <tbody id="table-body">
-          </tbody>
+          <tbody id="table-body"></tbody>
         </table>
       </div>
-      <button
-        onclick="window.location.href='index.html'"
-        class="btn btn-primary"
-      >
-        Kembali ke Input Nilai
-      </button>
+      <button onclick="exportPDF()" class="btn">Print PDF</button>
     </div>
 
     <script src="./script/script.js"></script>
     <script>
       loadData();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
 
     <footer>
       <p>&copy; 2024 Farhan Apri Kesuma</p>
