@@ -1,0 +1,95 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #fcfafa;
+}
+tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+tr:hover {
+  background-color: #91cdfa;
+  cursor: pointer;
+}
+
+thead th {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #1b9bff;
+  color: white;
+  z-index: 1;
+}
+
+.content {
+  padding: 130px 100px 50px 100px;
+}
+
+.table-wrapper {
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.btn {
+  margin-top: 50px !important;
+}
+
+@media screen and (max-height: 1024px) {
+  .content {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 130px 60px 50px 60px;
+  }
+
+  footer {
+    margin-top: 350px;
+  }
+
+  h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .table-wrapper {
+    max-height: 900px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .content {
+    padding: 130px 30px 50px 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .content {
+    font-size: 8px;
+    padding: 130px 13px 50px 13px;
+  }
+}
