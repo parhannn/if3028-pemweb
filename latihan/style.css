@@ -1,0 +1,17 @@
+article {
+  margin: 0 auto;
+}
+
+#text {
+  width: 50%;
+  float: left;
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+#malas {
+  float: right;
+  position: relative;
+  width: 500px;
+}

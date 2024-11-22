@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 30%;
+            border-collapse: collapse;
+        }
+        
+        thead tr {
+            background-color: lightblue;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <caption>Daftar Mahasiswa</caption>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>No</td>
+                <td>Nama</td>
+                <td>NIM</td>
+                <td>Tanggal Lahir</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Farhan Apri Kesuma</td>
+                <td>121140179</td>
+                <td>2004-01-04</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Carlos Piero Parhusip</td>
+                <td>121140190</td>
+                <td>2001-99-99</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andrean Syahrezi</td>
+                <td>121140169</td>
+                <td>2001-99-99</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <p>
+                <label for="Nama">Nama :</label>
+                <input type="text" id="Nama" name="Nama">
+            </p>
+            <p>
+                <label for="NIM">NIM :</label>
+                <input type="text" id="NIM" name="NIM">
+            </p>
+            <p>
+                <label for="Tanggal Lahir">Tanggal Lahir :</label>
+                <input type="date" id="Tanggal Lahir" name="Tanggal Lahir">
+            </p>
+            <p>
+                <label for="Negara">Negara</label>
+                <select name="Negara" id="Negara">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Singapura">Singapura</option>
+                </select>
+            </p>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

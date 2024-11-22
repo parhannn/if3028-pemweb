@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Informasi Pendaftar</title>
+    <link rel="stylesheet" href="assets/detail.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Detail Informasi Pendaftar</h1>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td id="nama"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td id="email"></td>
+            </tr>
+            <tr>
+                <th>Telepon</th>
+                <td id="telepon"></td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td id="alamat"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        const url = new URLSearchParams(window.location.search);
+
+        document.getElementById('nama').textContent = url.get('nama');
+        document.getElementById('email').textContent = url.get('email');
+        document.getElementById('telepon').textContent = url.get('telepon');
+        document.getElementById('alamat').textContent = url.get('alamat');
+    </script>
+</body>
+</html>
